@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My First Django App</title>
+        <link rel="stylesheet" href="{% static 'css/my_style.css' %}" >
+    </head>
+    <body>
+        <h1>Hello My Name is Widya Ayu Zulaicha, this is index.html</h1>
+        {{ insert_me }}
+
+        <p>This is the picture of me :</p>
+        <img src="{% static 'images/bg.jpg' %}" alt="Gambar">
+    </body>
+</html>
